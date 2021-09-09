@@ -1,0 +1,48 @@
+main {
+  width: 98vw;
+  height: 98vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+div {
+  text-align: center;
+}
+
+.descript, .gradientColor {
+  width: 58vw;
+  font-size: 35px;
+  justify-self: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-animation:colorchange 8s linear infinite alternate;
+}
+
+  @-webkit-keyframes colorchange {
+  0% {
+    color: white;
+  }   
+  30% {
+    color: gray;
+  }
+  60% {
+    color: darkgray;
+  }
+  100% {
+    color: black;
+  }
+}
+
+button {
+  transition : all 0.5s ease;
+  border: none;
+  font-size: 1rem;
+  padding: 0.7rem;
+  border-radius: 5px;
+  justify-self: center;
+}
+
+button:hover {
+  cursor:pointer;
+  background-color: rgb(197, 196, 196);
+}
