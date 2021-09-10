@@ -1,0 +1,51 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  height: 98vh;
+  background: #80e5ff;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+main {
+  width: 50vw;
+  height: 40vh;
+  border-radius: 37px;
+  background: linear-gradient(to right, #55ddff, #72ffec);
+  box-shadow: -31px 31px 62px #6dc3d9, 31px -31px 62px #93ffff;
+  padding: 150px 70px 70px 70px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  align-content: center;
+}
+
+.quote,
+.author {
+  width: 50vw;
+  text-align: center;
+  font-size: 3.4vh;
+  align-self: center;
+}
+
+.author {
+  font-size: 2.3vh;
+  font-style: italic;
+}
+
+button {
+  transition: all 0.2s ease-in-out;
+  background: transparent;
+  color: white;
+  border: none;
+  align-self: end;
+  justify-self: end;
+  text-align: center;
+  font-size: 3vh;
+}
+
+button:hover {
+  color: rgba(0, 47, 255, 0.644);
+  cursor: pointer;
+}
